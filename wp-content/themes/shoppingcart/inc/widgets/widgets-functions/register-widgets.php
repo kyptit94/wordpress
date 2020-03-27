@@ -15,8 +15,8 @@ function shoppingcart_widgets_init() {
 			'description' => __('Shows widgets at Main Sidebar.', 'shoppingcart'),
 			'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 			'after_widget' => '</aside>',
-			'before_title' => '<h2 class="widget-title">',
-			'after_title' => '</h2>',
+			'before_title' => '<div class="wrap-widget-title><h2 class="widget-title">',
+			'after_title' => '</h2></div>',
 		));
 	register_sidebar(array(
 			'name' => __('Top Header Info', 'shoppingcart'),
@@ -59,7 +59,7 @@ function shoppingcart_widgets_init() {
 			'description' => __('Add Iframe Code using text widgets', 'shoppingcart'),
 			'before_widget' => '<div id="%1$s" class="widget %2$s">',
 			'after_widget' => '</div>',
-			'before_title' => '<h2 class="widget-title">',
+			'before_title' => '<div class="wrap-widget-title><h2 class="widget-title">',
 			'after_title' => '</h2>',
 		));
 	register_sidebar(array(
@@ -68,8 +68,8 @@ function shoppingcart_widgets_init() {
 			'description' => __('Add WooCommerce Widgets Only', 'shoppingcart'),
 			'before_widget' => '<div id="%1$s" class="widget %2$s">',
 			'after_widget' => '</div>',
-			'before_title' => '<h2 class="widget-title">',
-			'after_title' => '</h2>',
+			'before_title' => '<div class="wrap-widget-title><h2 class="widget-title"></div>',
+			'after_title' => '</h2></div>',
 		));
 
 	for($i =1; $i<= 4; $i++){
