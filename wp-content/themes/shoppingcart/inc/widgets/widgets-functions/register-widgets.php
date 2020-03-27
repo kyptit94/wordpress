@@ -68,7 +68,7 @@ function shoppingcart_widgets_init() {
 			'description' => __('Add WooCommerce Widgets Only', 'shoppingcart'),
 			'before_widget' => '<div id="%1$s" class="widget %2$s">',
 			'after_widget' => '</div>',
-			'before_title' => '<div class="wrap-widget-title><h2 class="widget-title"></div>',
+			'before_title' => '<div class="wrap-widget-title><h2 class="widget-title">',
 			'after_title' => '</h2></div>',
 		));
 
