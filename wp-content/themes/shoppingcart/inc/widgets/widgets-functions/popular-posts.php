@@ -73,7 +73,9 @@ class ShoppingCart_popular_Widgets extends WP_Widget {
 
 		echo $before_widget;
 		if(!empty($shoppingcart_popular_posts_title) ){ ?>
-			<h3 class="widget-title"><?php echo esc_attr($shoppingcart_popular_posts_title); ?></h3>
+			<div class="wrap-widget-title-2">
+				<h3 class="widget-title"><?php echo esc_attr($shoppingcart_popular_posts_title); ?></h3>
+			</div>
 		<?php } ?>
 		<div class="popular-posts-wrapper">
 			<div class="tf-popular">
