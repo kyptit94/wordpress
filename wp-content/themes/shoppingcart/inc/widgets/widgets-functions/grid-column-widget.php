@@ -102,9 +102,11 @@ class Shoppingcart_product_grid_column_Widget extends WP_Widget {
 		echo '<!-- ShoppingCart Grid Widget ============================================= -->' .$before_widget;
 
 			if ( $title!=''){ ?>
-				<h2 class="widget-title">
-					<?php echo esc_html($title); ?>
-				</h2><!-- end .widget-title -->
+				<div class="wrap-widget-title">
+					<h2 class="widget-title">
+						<?php echo esc_html($title); ?>
+					</h2><!-- end .widget-title -->
+				</div>
 			<?php	} ?>
 			<div class="shoppingcart-grid-widget-wrap five-column-grid">
 					<?php
