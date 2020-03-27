@@ -1,0 +1,8 @@
+2020-03-26T17:00:13+00:00 CRITICAL Uncaught Error: Class 'Puc_v4p4_Plugin_Info' not found in /var/www/demo.huongthiviethuong.net/wordpress/wp-content/plugins/jft-assitant-plugin/vendor/yahnis-elsts/plugin-update-checker/Puc/v4p4/Vcs/PluginUpdateChecker.php:44
+Stack trace:
+#0 /var/www/demo.huongthiviethuong.net/wordpress/wp-content/plugins/jft-assitant-plugin/vendor/yahnis-elsts/plugin-update-checker/Puc/v4p4/Plugin/UpdateChecker.php(163): Puc_v4p4_Vcs_PluginUpdateChecker->requestInfo(Array)
+#1 /var/www/demo.huongthiviethuong.net/wordpress/wp-content/plugins/jft-assitant-plugin/vendor/yahnis-elsts/plugin-update-checker/Puc/v4p4/UpdateChecker.php(231): Puc_v4p4_Plugin_UpdateChecker->requestUpdate()
+#2 /var/www/demo.huongthiviethuong.net/wordpress/wp-content/plugins/jft-assitant-plugin/vendor/yahnis-elsts/plugin-update-checker/Puc/v4p4/Scheduler.php(109): Puc_v4p4_UpdateChecker->checkForUpdates()
+#3 /var/www/demo.huongthiviethuong.net/wordpress/wp-includes/class-wp-hook.php(286): Puc_v4p4_Scheduler->maybeCheckForUpdates()
+#4 /var/www/demo.huongth in /var/www/demo.huongthiviethuong.net/wordpress/wp-content/plugins/jft-assitant-plugin/vendor/yahnis-elsts/plugin-update-checker/Puc/v4p4/Vcs/PluginUpdateChecker.php on line 44
+
