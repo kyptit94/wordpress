@@ -60,7 +60,7 @@ function shoppingcart_widgets_init() {
 			'before_widget' => '<div id="%1$s" class="widget %2$s">',
 			'after_widget' => '</div>',
 			'before_title' => '<div class="wrap-widget-title><h2 class="widget-title">',
-			'after_title' => '</h2>',
+			'after_title' => '</h2></div>',
 		));
 	register_sidebar(array(
 			'name' => __('WooCommerce Sidebar', 'shoppingcart'),
