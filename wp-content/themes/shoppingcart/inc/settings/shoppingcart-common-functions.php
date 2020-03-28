@@ -117,10 +117,10 @@ function shoppingcart_cart_wishlist_icon(){
 					<i class="fa fa-shopping-basket"></i>
 					<span class="cart-value"><?php echo wp_kses_data ( WC()->cart->get_cart_contents_count() ); ?></span>
 				</a>
-				<div class="my-cart-wrap">
-					<div class="my-cart"><?php esc_html_e('Total', 'shoppingcart'); ?></div>
-					<div class="cart-total"><?php echo wp_kses_data( WC()->cart->get_cart_subtotal() ); ?></div>
-				</div>
+				<!-- <div class="my-cart-wrap">
+					<div class="my-cart"><?php //esc_html_e('Total', 'shoppingcart'); ?></div>
+					<div class="cart-total"><?php //echo wp_kses_data( WC()->cart->get_cart_subtotal() ); ?></div>
+				</div> -->
 			</div>
 			
 			<?php the_widget( 'WC_Widget_Cart', '' ); ?>
